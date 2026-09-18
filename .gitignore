@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.gemini/
+test_offer.pdf
+test_analysis.py
+make_pdf.py
+update_logic.py
+uploads/
