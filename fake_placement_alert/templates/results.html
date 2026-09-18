@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Check Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Result</h1>
+
+        <h2 style="color: {{ color }};">{{ result }}</h2>
+        <p><b>Model Probability:</b> {{ probability }}</p>
+
+        <h3>Message Checked:</h3>
+        <div class="message-box">{{ message }}</div>
+
+        <br>
+        <a href="{{ url_for('index') }}">Check another message</a>
+    </div>
+</body>
+</html>
